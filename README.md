@@ -1,8 +1,3 @@
-# React + Vite
+# rMorty
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a project that was created with react. This project demonstrates the use of api calls to a separate source using axios and querying with tanstack query. Infinite query is implemented for automatic loading when the end of the existing data has been reached. A react useEffect hook has been called to synchronize the data appropriately. Two different fonts were used in the title and each character name. One was added through font source as an npm package, while the other was added as a ttf file and imported through the css file. Tailwind was added in this project. Data displayed in a grid format and adjusted for screen size, creating a responsive view. 
